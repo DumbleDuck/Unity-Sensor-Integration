@@ -1,7 +1,10 @@
 # Sensor Integration in an open-world robot environment
 
 This project provides tools and scripts to integrate real-world sensor data into Unity applications. It facilitates real-time communication between Unity and external sensors using MQTT.
-
+---
+<p align="center">
+  <img src="Media/PartyMode.gif" alt="Party Mode GIF" width="45%"/>
+</p>
 ---
 ## Functionality:
 - Low-latency communication between ESP8266 & Unity over MQTT. 
@@ -21,11 +24,12 @@ This project provides tools and scripts to integrate real-world sensor data into
 - "Party Mode" is activated using the A0 pin for touch detection. To minimize interference from static, a running average filter is applied to smooth the readings.
 ---
 ## Setup:
-### Circuit:  
-<p align="center">
-  <img src="Media/Circuit.jpeg" alt="Circuit Diagram" width="500"/>
-</p>
+### Circuit:
 
+<p align="center">
+  <img src="Media/Circuit.jpeg" alt="Circuit Diagram" width="45%"/>
+</p>
+  
 - **Flash button pin** <-> GPIO 0 (D3)
 - **IR Sensor Pin** <-> GPIO 16 (D0)
 - **Touch Pin** <-> A0
