@@ -1,8 +1,9 @@
 # Sensor Integration in an open-world robot environment
 
 This project provides tools and scripts to integrate real-world sensor data into Unity applications. It facilitates real-time communication between Unity and external sensors using MQTT.
+
 ---
-<table>
+<!-- <table>
   <tr>
     <td align="center">
       <img src="Media/Part1.gif" alt="Movement" width="300"/><br/>
@@ -14,7 +15,14 @@ This project provides tools and scripts to integrate real-world sensor data into
     </td>
   </tr>
 </table>
-
+ -->
+<p align="center">
+  <video width="60%" controls>
+    <source src="Media/Working.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video><br/>
+  <em>Working Demo</em>
+</p>
 
 ## Functionality:
 - Low-latency communication between ESP8266 & Unity over MQTT. 
