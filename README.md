@@ -2,12 +2,20 @@
 
 This project provides tools and scripts to integrate real-world sensor data into Unity applications. It facilitates real-time communication between Unity and external sensors using MQTT.
 ---
-<p align="center">
-  <img src="Media/PartyMode.gif" alt="Party Mode GIF" width="45%"/>
-  <em>Party Mode</em>
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="Media/Part1.gif" alt="Movement" width="300"/><br/>
+       Movement & Door toggling
+    </td>
+    <td align="center">
+      <img src="Media/Part2.gif" alt="Jump" width="300"/><br/>
+      Jumping & Party Mode
+    </td>
+  </tr>
+</table>
 
----
+
 ## Functionality:
 - Low-latency communication between ESP8266 & Unity over MQTT. 
 - MPU6050 for camera panning & motion.
@@ -45,7 +53,7 @@ This project provides tools and scripts to integrate real-world sensor data into
 - **MPU6050 Ground** <-> GND
 
 ### MQTT Server:
-- Before starting the mosquitto broker (Eclipse Mosquitto in our case), update the mosquitto.conf file by adding the following lines:
+- Before starting the mosquitto broker (Eclipse Mosquitto in our case), update the `mosquitto.conf` file by adding the following lines:
 allow_anonymous true
 listener 1883 (server_IP)
 Mosquitto broker can then be started through CLI, navigating to location of `mosquitto.conf` and typing:
