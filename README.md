@@ -20,7 +20,7 @@ This project provides tools and scripts to integrate real-world sensor data into
 </div>
 
 
-🔊 Full video with sound can be found [here].(https://drive.google.com/file/d/14CyB23MFSlaou9Ww0Q3Laj8IH2a7n3tp/view?usp=sharing)
+🔊 Full video with sound can be found [here](https://drive.google.com/file/d/14CyB23MFSlaou9Ww0Q3Laj8IH2a7n3tp/view?usp=sharing).
  
 ## Functionality:
 - Low-latency communication between ESP8266 & Unity over MQTT. 
