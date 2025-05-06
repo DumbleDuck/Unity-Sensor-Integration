@@ -4,7 +4,9 @@ This project provides tools and scripts to integrate real-world sensor data into
 ---
 <p align="center">
   <img src="Media/PartyMode.gif" alt="Party Mode GIF" width="45%"/>
+  <em>Party Mode</em>
 </p>
+
 ---
 ## Functionality:
 - Low-latency communication between ESP8266 & Unity over MQTT. 
