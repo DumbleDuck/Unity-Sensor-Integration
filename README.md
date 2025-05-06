@@ -1,4 +1,4 @@
-# Sensor Integration in an open-world robot environment in Unity
+# Sensor Integration in an open-world robot environment
 
 This project provides tools and scripts to integrate real-world sensor data into Unity applications. It facilitates real-time communication between Unity and external sensors using MQTT.
 
@@ -23,7 +23,7 @@ This project provides tools and scripts to integrate real-world sensor data into
 ## Setup:
 ### Circuit:  
 <p align="center">
-  <img src="Media/Circuit.jpg" alt="Circuit Diagram" width="500"/>
+  <img src="Media/Circuit.jpeg" alt="Circuit Diagram" width="500"/>
 </p>
 
 - **Flash button pin** <-> GPIO 0 (D3)
