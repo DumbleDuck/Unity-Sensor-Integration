@@ -3,27 +3,25 @@
 This project provides tools and scripts to integrate real-world sensor data into Unity applications. It facilitates real-time communication between Unity and external sensors using MQTT.
 
 ---
-<table>
-  <tr>
-    <td align="center">
-      <img src="Media/Part1.gif" alt="Movement" width="300"/><br/>
-       Movement & Door toggling
-    </td>
-    <td align="center">
-      <img src="Media/Part2.gif" alt="Jump" width="300"/><br/>
-      Jumping & Party Mode
-    </td>
-  </tr>
-</table>
 
-<!-- <p align="center">
-  <video width="60%" controls>
-    <source src="Media/Working.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video><br/>
-  <em>Working Demo</em>
-</p> -->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="Media/Part1.gif" alt="Movement" width="300"/><br/>
+        <strong>Movement & Door Toggling</strong>
+      </td>
+      <td align="center">
+        <img src="Media/Part2.gif" alt="Jump" width="300"/><br/>
+        <strong>Jumping & Party Mode</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
+
+🔊 Full video with sound can be found [here].(https://drive.google.com/file/d/14CyB23MFSlaou9Ww0Q3Laj8IH2a7n3tp/view?usp=sharing)
+ 
 ## Functionality:
 - Low-latency communication between ESP8266 & Unity over MQTT. 
 - MPU6050 for camera panning & motion.
