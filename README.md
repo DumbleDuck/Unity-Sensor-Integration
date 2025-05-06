@@ -3,7 +3,7 @@
 This project provides tools and scripts to integrate real-world sensor data into Unity applications. It facilitates real-time communication between Unity and external sensors using MQTT.
 
 ---
-<!-- <table>
+<table>
   <tr>
     <td align="center">
       <img src="Media/Part1.gif" alt="Movement" width="300"/><br/>
@@ -15,14 +15,14 @@ This project provides tools and scripts to integrate real-world sensor data into
     </td>
   </tr>
 </table>
- -->
-<p align="center">
+
+<!-- <p align="center">
   <video width="60%" controls>
     <source src="Media/Working.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video><br/>
   <em>Working Demo</em>
-</p>
+</p> -->
 
 ## Functionality:
 - Low-latency communication between ESP8266 & Unity over MQTT. 
@@ -40,7 +40,7 @@ This project provides tools and scripts to integrate real-world sensor data into
 - Defined dead zones in movement to mitigate the effects of jittery readings at neutral position of MPU6050.
 - Debounce logic for IR Sensors prevents rapid toggling & ensures stable door operation when IR sensor detects presence.
 - "Party Mode" is activated using the A0 pin for touch detection. To minimize interference from static, a running average filter is applied to smooth the readings.
----
+
 ## Setup:
 ### Circuit:
 
