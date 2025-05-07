@@ -60,7 +60,7 @@ This project provides tools and scripts to integrate real-world sensor data into
 
 ### MQTT Server:
 - Before starting the mosquitto broker (Eclipse Mosquitto in our case), update the `mosquitto.conf` file by adding the following lines:
-allow_anonymous true
-listener 1883 (server_IP)
+`allow_anonymous true`  & 
+`listener 1883 (server_IP)`.  
 Mosquitto broker can then be started through CLI, navigating to location of `mosquitto.conf` and typing:
 mosquitto -v -c mosquitto.conf
