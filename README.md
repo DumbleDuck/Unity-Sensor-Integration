@@ -26,15 +26,15 @@ This project provides tools and scripts to integrate real-world sensor data into
 - Low-latency communication between ESP8266 & Unity over MQTT. 
 - MPU6050 for camera panning & motion.
 - Pushbutton switch encoder for jumping & changing speed.
-- IR sensor for opening/ closing doors.
+- IR sensor for opening/closing doors.
 - DHT11 for temperature monitoring.
 
 ## Standout features:
 - MQTT enables a modular architecture by allowing sensors to push data automatically, eliminating the need for continuous polling from the client.
-- `Sensor_Values.cs` stores incoming sensor values in variable making it accessible to other scripts while also focusing on thread-safe execution.  
+- `Sensor_Values.cs` stores all incoming sensor values in variables, making them accessible to other scripts while also focusing on thread-safe execution.
 - Kalman Filter processing on ESP8266 combines noisy accelerometer data & drifting gyroscope data to accurately estimate orientation (roll & pitch) using a prediction-update cycle.
 - On-board flash button of ESP8266 is repurposed to toggle between movement & camera panning due to availability of only one MPU6050.
-- Take resultant of roll and pitch values to define magnitude and direction of movement.
+- Taking resultant of roll and pitch values allows us to define magnitude and direction of movement.
 - Defined dead zones in movement to mitigate the effects of jittery readings at neutral position of MPU6050.
 - Debounce logic for IR Sensors prevents rapid toggling & ensures stable door operation when IR sensor detects presence.
 - "Party Mode" is activated using the A0 pin for touch detection. To minimize interference from static, a running average filter is applied to smooth the readings.
