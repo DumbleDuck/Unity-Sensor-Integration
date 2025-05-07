@@ -30,7 +30,7 @@ This project provides tools and scripts to integrate real-world sensor data into
 - DHT11 for temperature monitoring.
 
 ## Standout features:
-- MQTT enables a modular architecture by allowing sensors to push data automatically, eliminating the need for continuous polling from the client.
+- MQTT enables a modular architecture by allowing sensors to push data automatically on a topic (here `encoder/reading`), eliminating the need for continuous polling from the client.
 - `Sensor_Values.cs` stores all incoming sensor values in variables, making them accessible to other scripts while also focusing on thread-safe execution.
 - Kalman Filter processing on ESP8266 combines noisy accelerometer data & drifting gyroscope data to accurately estimate orientation (roll & pitch) using a prediction-update cycle.
 - On-board flash button of ESP8266 is repurposed to toggle between movement & camera panning due to availability of only one MPU6050.
